@@ -20,7 +20,6 @@ package org.familab.app;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -30,6 +29,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.ListFragment;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -41,6 +41,9 @@ import android.webkit.WebViewClient;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
@@ -363,6 +366,19 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             }
         };
 
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.status_page, container, false);
+
+            webView = (WebView) rootView.findViewById(R.id.webView3);
+            webView.setWebViewClient(MyWebViewClient);
+            webView.getSettings().setJavaScriptEnabled(true);
+            webView.loadUrl("http://famitracker.herokuapp.com/unique_items");
+            setHasOptionsMenu(true);
+            Log.w("on create", "there was light");
+            return rootView;
+        }
+
         public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
             inflater.inflate(R.menu.status, menu);
         }
@@ -382,25 +398,30 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     webView.goBack();
                     return true;
 
+                case R.id.menu_QR:
+                    IntentIntegrator integrator = new IntentIntegrator((Fragment)this);
+                    integrator.initiateScan();
+
                 default:
                     return super.onOptionsItemSelected(item);
             }
         }
 
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.status_page, container, false);
 
-            webView = (WebView) rootView.findViewById(R.id.webView3);
-            webView.setWebViewClient(MyWebViewClient);
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadUrl("http://famitracker.herokuapp.com/unique_items");
-            setHasOptionsMenu(true);
+        public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+            IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
+            if (scanResult != null) {
+                // handle scan result
+                //url famitracker.herokuapp.com/unique_items/new?fuid=809430970974
+                String basedUrl = "http://famitracker.herokuapp.com/unique_items/new?fuid=";
 
-            return rootView;
+                Log.w("test the thing", scanResult.toString());
+                basedUrl += scanResult.toString();
+
+                webView.loadUrl(basedUrl);
+            }
+         // else continue with any other code you need in the method
         }
-
-
     }
 
     /**
