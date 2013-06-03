@@ -17,8 +17,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.familab.app"
-    android:versionCode="7"
-    android:versionName="1.6" >
+    android:versionCode="8"
+    android:versionName="1.7" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -46,7 +46,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.familab.app.MainActivity" />
         </activity>
-        <activity android:name=".Settings"/>
+        <activity android:name="org.familab.app.Settings"
+                android:label="Settings"/>
     </application>
 
 </manifest>
