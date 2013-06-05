@@ -7,7 +7,7 @@
             android:title="@string/action_settings"/>
     <item
             android:id="@+id/menu_refresh"
-            android:orderInCategory="400"
+            android:orderInCategory="500"
             android:icon="@drawable/ic_menu_refresh"
             android:showAsAction="ifRoom|withText"
             android:title="Refresh"/>
@@ -19,7 +19,9 @@
             android:title="Back"/>
     <item
             android:id="@+id/menu_QR"
-            android:orderInCategory="500"
+            android:orderInCategory="400"
+            android:icon="@drawable/ic_menu_qr_code"
+            android:showAsAction="ifRoom|withText"
             android:title="QR Code"/>
 
 </menu>

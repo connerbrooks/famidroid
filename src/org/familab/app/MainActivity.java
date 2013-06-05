@@ -29,7 +29,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.ListFragment;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -44,6 +44,8 @@ import android.widget.TextView;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+
+
 
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
@@ -62,7 +64,30 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     ViewPager mViewPager;
 
     public final static String EXTRA_LINK = "org.familab.app.LINK";
-    
+
+    // url to make request
+    private static String url = "http://famitracker.herokuapp.com/unique_items.json";
+
+    // JSON Node names
+    //Main List
+    private static final String TAG_AREA = "area";
+    private static final String TAG_CREATED_AT = "created_at";
+    private static final String TAG_FUID = "fuid";
+    private static final String TAG_ID = "id";
+    private static final String TAG_LOGGABLE = "loggable";
+    private static final String TAG_NAME = "name";
+    private static final String TAG_PHOTO_CONTENT_TYPE = "photo_content_type";
+    private static final String TAG_PHOTO_FILE_NAME = "photo_file_name";
+    private static final String TAG_PHOTO_FILE_SIZE = "photo_file_size";
+    private static final String TAG_PHOTO_UPDATED_AT = "photo_updated_at";
+    private static final String TAG_TICKETABLE = "ticketable";
+    private static final String TAG_UPDATED_AT = "updated_at";
+
+    //JSON Node names
+    //individual Items
+
+
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -147,11 +172,11 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 
                 case 2:
                 	//Display Famiduino picture
-                	return new TwitterPage();
+                	return new StatusPage();
 
                 case 3:
                     //Display Status webview
-                    return new StatusPage();
+                    return new TwitterPage();
 
                 	
 
@@ -179,10 +204,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         		return "Events";
         	}
             else if(position == 2){
-                return "FamiDuino";
+                return "Status";
             }
         	else{
-        		return "Status";
+        		return "FamiDuino";
         	}
             
         }
@@ -235,22 +260,16 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     			startActivity(browserIntent);
     		}
     		else if(keyword.equals("Forums")){
-    			  //Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://forums.familab.org"));
-    			  //startActivity(browserIntent);
-    			  //Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                  //startActivity(intent);
-                  Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                  String message = "http://forums.familab.org";
-                  intent.putExtra(EXTRA_LINK, message);
-                  startActivity(intent);
+    			  Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://forums.familab.org"));
+    			  startActivity(browserIntent);
     		  }
     	    else if(keyword.equals("IRC")){
-    			  //Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://webchat.freenode.net/?channels=#familab"));
-    			  //startActivity(browserIntent);
-    			  Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                  String message = "http://webchat.freenode.net/?channels=#familab";
-                  intent.putExtra(EXTRA_LINK, message);
-                  startActivity(intent);
+    			  Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://webchat.freenode.net/?channels=#familab"));
+    			  startActivity(browserIntent);
+    			  //Intent intent = new Intent(getActivity(), WebViewActivity.class);
+                  //String message = "http://webchat.freenode.net/?channels=#familab";
+                  //intent.putExtra(EXTRA_LINK, message);
+                  //startActivity(intent);
     		  }
     		else if(keyword.equals("Map")){
     			  Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.google.com/maps?q=FamiLAB,+1355+Bennett+Dr+%23129,+Longwood,+FL&hl=en&ll=28.687802,-81.353073&spn=0.040509,0.083857&sll=28.699909,-81.35064&sspn=0.081008,0.167713&oq=famil&t=h&hq=familab+1355+bennett+dr+129&hnear=Longwood,+Seminole,+Florida&z=14&iwloc=A"));
@@ -373,10 +392,21 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             webView = (WebView) rootView.findViewById(R.id.webView3);
             webView.setWebViewClient(MyWebViewClient);
             webView.getSettings().setJavaScriptEnabled(true);
+
+            if(savedInstanceState != null){
+                ((WebView)rootView.findViewById(R.id.webView3)).restoreState(savedInstanceState);
+            }
+            else{
             webView.loadUrl("http://famitracker.herokuapp.com/unique_items");
+            }
             setHasOptionsMenu(true);
-            Log.w("on create", "there was light");
+
+
             return rootView;
+        }
+        @Override
+        public void onSaveInstanceState(Bundle outState){
+            webView.saveState(outState);
         }
 
         public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
@@ -415,8 +445,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 //url famitracker.herokuapp.com/unique_items/new?fuid=809430970974
                 String basedUrl = "http://famitracker.herokuapp.com/unique_items/new?fuid=";
 
-                Log.w("test the thing", scanResult.toString());
-                basedUrl += scanResult.toString();
+                basedUrl += scanResult.getContents();
 
                 webView.loadUrl(basedUrl);
             }
