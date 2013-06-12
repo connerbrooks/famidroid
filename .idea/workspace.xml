@@ -13,29 +13,37 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="alright" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63255c27-51b2-4ac4-a3b8-853bf330c37c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/list_item.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FamiLab App.iml" afterPath="$PROJECT_DIR$/FamiLab App.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/familab/app/JSONParser.java" afterPath="$PROJECT_DIR$/src/org/familab/app/JSONParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/familab/app/MainActivity.java" afterPath="$PROJECT_DIR$/src/org/familab/app/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/familab/app/Settings.java" afterPath="$PROJECT_DIR$/src/org/familab/app/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java" afterPath="$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/settings.xml" afterPath="$PROJECT_DIR$/res/layout/settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FamiLab App.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainActivity.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370579747843" ignored="false" />
+    <file path="/MainActivity.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013101333" ignored="false" />
     <file path="$USER_HOME$/android-sdk-linux/samples/android-17/AppNavigation/project.properties" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370155611420" ignored="false" />
-    <file path="/fragment.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370494050684" ignored="false" />
+    <file path="/fragment.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370977141998" ignored="false" />
     <file path="/web.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370203665938" ignored="false" />
-    <file path="/Settings.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370223837983" ignored="false" />
-    <file path="/Dummy.txt" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370578664841" ignored="false" />
-    <file path="/WebViewActivity.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370160532054" ignored="false" />
+    <file path="/Settings.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370935009611" ignored="false" />
+    <file path="/Dummy.txt" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013347113" ignored="false" />
+    <file path="/WebViewActivity.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370935798037" ignored="false" />
     <file path="/settings.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370227066059" ignored="false" />
     <file path="$USER_HOME$/Desktop/Navigation Drawer/NavigationDrawer/gen/com/example/android/navigationdrawerexample/R.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370230060337" ignored="false" />
     <file path="$USER_HOME$/Desktop/Navigation Drawer/NavigationDrawer/gen/com/example/android/navigationdrawerexample/Manifest.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370230060337" ignored="false" />
     <file path="$USER_HOME$/Desktop/Navigation Drawer/NavigationDrawer/gen/com/example/android/navigationdrawerexample/BuildConfig.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370230269291" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370235082635" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013002981" ignored="false" />
     <file path="$USER_HOME$/Desktop/Navigation Drawer/NavigationDrawer/.idea/workspace.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370230069088" ignored="false" />
     <file path="/status.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370235725436" ignored="false" />
     <file path="/IntentIntegrator.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370232410560" ignored="false" />
@@ -43,7 +51,12 @@
     <file path="/status_list_layout.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370492992358" ignored="false" />
     <file path="/list_item.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370493533392" ignored="false" />
     <file path="/AsyncJson.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370552075080" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/org/familab/app/BuildConfig.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370579259588" ignored="false" />
+    <file path="/JSONParser.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370929245517" ignored="false" />
+    <file path="/json_thing.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370933806170" ignored="false" />
+    <file path="/strings.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1370933918502" ignored="false" />
+    <file path="$USER_HOME$/famidroid/AndroidManifest.xml" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013037642" ignored="false" />
+    <file path="$USER_HOME$/famidroid/src/org/familab/app/MainActivity.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013318116" ignored="false" />
+    <file path="$USER_HOME$/famidroid/src/org/familab/app/Settings.java" changelist="63255c27-51b2-4ac4-a3b8-853bf330c37c" time="1371013302746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +76,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -99,7 +113,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,19 +122,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IntentIntegrator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentIntegrator.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/familab/app/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="39" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
+            <state line="485" column="29" selection-start="18060" selection-end="18060" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#18983#18991#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="28" selection-start="796" selection-end="796" vertical-scroll-proportion="0.8108108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="JSONParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/familab/app/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="17" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
+            <state line="32" column="33" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,10 +163,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="status_page.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/status_page.xml">
+      <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/familab/app/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="35" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="29" column="152" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="52" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,62 +193,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="famiduino.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/famiduino.xml">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="53" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/familab/app/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="496" column="64" selection-start="18101" selection-end="18101" vertical-scroll-proportion="0.4822335">
-              <folding>
-                <element signature="e#0#20596#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#4620#5045#0" expanded="true" />
-                <element signature="e#5034#5035#0" expanded="true" />
-                <element signature="e#8584#8592#0" expanded="true" />
-                <element signature="e#14421#14712#0" expanded="true" />
-                <element signature="e#14701#14702#0" expanded="true" />
-                <element signature="e#17539#17564#0" expanded="true" />
-                <element signature="e#19662#19670#0" expanded="true" />
-                <element signature="e#20473#20544#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/familab/app/JSONParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="WebViewActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+            <state line="55" column="64" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="45" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -239,13 +243,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/menu/famiduino.xml" />
-        <option value="$PROJECT_DIR$/res/menu/web.xml" />
-        <option value="$PROJECT_DIR$/src/org/familab/app/Settings.java" />
-        <option value="$PROJECT_DIR$/res/layout/settings.xml" />
-        <option value="$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentResult.java" />
         <option value="$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentIntegrator.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/menu/status.xml" />
         <option value="$PROJECT_DIR$/res/layout/single_list_item_view.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_view_text.xml" />
@@ -253,6 +251,12 @@
         <option value="$PROJECT_DIR$/res/layout/status_list_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/src/org/familab/app/AsyncJson.java" />
+        <option value="$PROJECT_DIR$/res/layout/json_thing.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/settings.xml" />
+        <option value="$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/familab/app/Settings.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/org/familab/app/JSONParser.java" />
         <option value="$PROJECT_DIR$/src/org/familab/app/MainActivity.java" />
       </list>
@@ -262,9 +266,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="19" />
-    <option name="width" value="1366" />
-    <option name="height" value="749" />
+    <option name="x" value="2" />
+    <option name="y" value="25" />
+    <option name="width" value="1364" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,20 +313,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="FamiLab App">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,101 +324,11 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.2.2 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FamiLab App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamiLab App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -464,11 +365,25 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="FamiLab App">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/FamiLab App.apk" />
@@ -476,25 +391,26 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="FamiLab App" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/async-json-library-0.1.4.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/famidroid" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.1.198:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/res/layout" />
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
-      <recent name="$PROJECT_DIR$/res/drawable-ldpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.FamiLab App">
@@ -656,6 +572,11 @@
       <workItem from="1370453319023" duration="18974000" />
       <workItem from="1370552428123" duration="1242000" />
       <workItem from="1370578659212" duration="1094000" />
+      <workItem from="1370927243857" duration="1174000" />
+      <workItem from="1370928432708" duration="7574000" />
+      <workItem from="1370974842271" duration="1153000" />
+      <workItem from="1370976102262" duration="3463000" />
+      <workItem from="1371009277528" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Dex libs. ZXING ruined everything!">
       <created>1370228138832</created>
@@ -677,37 +598,83 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56885000" />
+    <option name="totallyTimeSpent" value="72948000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="19" width="1366" height="749" extended-state="6" />
-    <editor active="true" />
+    <frame x="2" y="25" width="1364" height="735" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32534248" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24493062" sideWeight="0.42669585" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24493062" sideWeight="0.42669585" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1762918" sideWeight="0.26101694" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32615894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17651515" sideWeight="0.67275745" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32225913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67275745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1762918" sideWeight="0.67118645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.66780823" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67275745" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.66780823" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6710963" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67275745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67275745" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6710963" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24493062" sideWeight="0.42669585" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24493062" sideWeight="0.42669585" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3321918" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17678301" sideWeight="0.66780823" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -751,7 +718,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Work On native JSON parsing and native UI for status page." />
+    <option name="LAST_COMMIT_MESSAGE" value="new json library maybe we will json someday jason." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -768,29 +735,39 @@
     <MESSAGE value="Removed Dex libs. ZXING ruined everything!" />
     <MESSAGE value="Yay QR codes on everything you have ever owned or touched!" />
     <MESSAGE value="Starting Work On native JSON parsing and native UI for status page." />
+    <MESSAGE value="new json library maybe we will json someday jason." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
+    <entry file="file://$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
+        <state line="55" column="64" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_web_view.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="1" selection-end="174" vertical-scroll-proportion="0.0">
+        <state line="21" column="20" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentIntegrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="39" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/json/JSONTokener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.75274724" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="4520" selection-end="4520" vertical-scroll-proportion="3.9148352" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/status_page.xml">
@@ -803,97 +780,82 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/status.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_menu_qr_code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_menu_qr_code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_menu_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_menu_refresh.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_menu_qr_code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/famiduino.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+        <state line="7" column="53" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_web_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="1" selection-end="174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10169491" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/familab/app/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="152" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/familab/app/WebViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/zxing/integration/android/IntentResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+        <state line="55" column="64" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/familab/app/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+        <state line="32" column="33" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/familab/app/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="496" column="64" selection-start="18101" selection-end="18101" vertical-scroll-proportion="0.4822335">
+        <state line="485" column="29" selection-start="18060" selection-end="18060" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#20596#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#4620#5045#0" expanded="true" />
-            <element signature="e#5034#5035#0" expanded="true" />
-            <element signature="e#8584#8592#0" expanded="true" />
-            <element signature="e#14421#14712#0" expanded="true" />
-            <element signature="e#14701#14702#0" expanded="true" />
-            <element signature="e#17539#17564#0" expanded="true" />
-            <element signature="e#19662#19670#0" expanded="true" />
-            <element signature="e#20473#20544#0" expanded="true" />
+            <element signature="e#18983#18991#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="796" selection-end="796" vertical-scroll-proportion="0.8108108">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,6 +916,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -973,7 +936,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>android-async-http-1.4.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

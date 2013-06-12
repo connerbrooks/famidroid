@@ -44,13 +44,12 @@ import android.widget.TextView;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 
 
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
@@ -472,69 +471,68 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
         public void onActivityCreated(Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
+            Log.v("cool", "alright");
+
+            AsyncHttpClient client = new AsyncHttpClient();
+            client.get(url, new AsyncHttpResponseHandler() {
+                @Override
+                public void onSuccess(String response) {
+                    System.out.println(response);
+                    Log.v(response, "work or else");
+                    String[] values = null;
+                    try{
+                        JSONObject jsonObj = new JSONObject(response);
+                        Log.v("I hope this happens", "me too" + response);
+                        try {
+                            // Getting Array of Contacts
+                            unique_objects = jsonObj.getJSONArray(TAG_UNIQUE_ID);
+                            values = new String[unique_objects.length()];
+                            // looping through All Contacts
+                            for(int i = 0; i < unique_objects.length(); i++){
+                                JSONObject c = unique_objects.getJSONObject(i);
+
+                                // Storing each json item in variable
+                                String area = c.getString(TAG_AREA);
+                                String name = c.getString(TAG_NAME);
+                                String fuid = c.getString(TAG_FUID);
+                                Boolean ticketable = c.getBoolean(TAG_TICKETABLE);
+                                values[i] = name;
+
+                                ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
+                                        android.R.layout.simple_list_item_1, values);
+                                setListAdapter(adapter);
+                                setHasOptionsMenu(true);
+                                // creating new HashMap
+                                //HashMap<String, String> map = new HashMap<String, String>();
+
+                                // adding each child node to HashMap key => value
+                                //map.put(TAG_NAME, name);
+                                //map.put(TAG_AREA, area);
+                                //map.put(TAG_FUID, fuid);
+
+                                //uniqueItemList.add(map);
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    catch(Exception e){
+                        Log.d("oh no", "broken");
+                    }
 
 
-
-
-            // Hashmap for ListView
-            ArrayList<HashMap<String, String>> uniqueItemList = new ArrayList<HashMap<String, String>>();
-            String[] values = null;
-
-            //testing JSON Parser
-            // Creating JSON Parser instance
-            JSONParser jParser = new JSONParser();
-
-            // getting JSON string from URL
-            JSONObject json = null;
-            try{
-                json = jParser.getJSON(url);
-            } catch (JSONException e){
-                Log.e("oh god", "oh no");
-            }
-
-            try {
-                // Getting Array of Contacts
-                unique_objects = json.getJSONArray(TAG_UNIQUE_ID);
-                values = new String[unique_objects.length()];
-                // looping through All Contacts
-                for(int i = 0; i < unique_objects.length(); i++){
-                    JSONObject c = unique_objects.getJSONObject(i);
-
-                    // Storing each json item in variable
-                    String area = c.getString(TAG_AREA);
-                    String name = c.getString(TAG_NAME);
-                    String fuid = c.getString(TAG_FUID);
-                    Boolean ticketable = c.getBoolean(TAG_TICKETABLE);
-                    values[i] = name;
-                    // creating new HashMap
-                    //HashMap<String, String> map = new HashMap<String, String>();
-
-                    // adding each child node to HashMap key => value
-                    //map.put(TAG_NAME, name);
-                    //map.put(TAG_AREA, area);
-                    //map.put(TAG_FUID, fuid);
-
-                    //uniqueItemList.add(map);
                 }
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            /**
-            ListAdapter adapter = new SimpleAdapter(getActivity(), uniqueItemList,
-                    R.layout.list_item,
-                    new String[] { TAG_NAME, TAG_AREA, TAG_FUID}, new int[] {
-                    R.id.name, R.id.area, R.id.fuid });
-            */
+            });
 
-            //String[] values = new String[] { "FamiLAB.org", "Forums", "IRC",
-            //        "Map", "Twitter", "Google+"};
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                    android.R.layout.simple_list_item_1, values);
-            setListAdapter(adapter);
-            setHasOptionsMenu(true);
+
+
+
+
 
         }
     }
+
+
 
     /**
      * A dummy fragment representing a section of the app, but that simply displays dummy text.

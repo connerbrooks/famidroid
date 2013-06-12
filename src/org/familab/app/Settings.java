@@ -1,27 +1,36 @@
 package org.familab.app;
 
 import android.app.ActionBar;
-import android.app.Activity;
+import android.app.ListActivity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v4.app.TaskStackBuilder;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 /**
  * Created by conner on 6/2/13.
  */
-public class Settings extends Activity {
+public class Settings extends ListActivity {
+
+    public final static String EXTRA_LINK = "org.familab.app.LINK";
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.settings);
+        //setContentView(R.layout.settings);
 
         final ActionBar actionBar = getActionBar();
 
         actionBar.setDisplayHomeAsUpEnabled(true);
-
+        String[] values = new String[] { "Sign In", "Transcend Mere Human Form", "Hack The Thing On the Wall", "Notify NSA", "Initiate Prism Uplink(NOT OPTIONAL)" };
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, values);
+        setListAdapter(adapter);
 
     }
 
@@ -49,5 +58,24 @@ public class Settings extends Activity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+        //get item that was clicked
+        Object o = this.getListAdapter().getItem(position);
+        String keyword = o.toString();
+
+        //launch intents when different list items are clicked
+        if(keyword.equals("Sign In")){
+            Intent intent = new Intent(this, WebViewActivity.class);
+            String message = "http://famitracker.herokuapp.com/users/sign_in";
+            intent.putExtra(EXTRA_LINK, message);
+            startActivity(intent);
+        }
+
+
+
     }
 }
